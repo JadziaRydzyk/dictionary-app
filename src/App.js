@@ -8,7 +8,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by JR</footer>
+        <footer className="text-center">
+          Coded by JR <br />
+          <a
+            className="GitHubLink"
+            href="https://github.com/JadziaRydzyk/dictionary-app"
+            target="_blank "
+          >
+            Look at my GitHub repository
+          </a>
+        </footer>
       </div>
     </div>
   );
