@@ -3,9 +3,13 @@ import React from "react";
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
-      <ul>
+      <ul className="row Synonyms">
         {props.synonyms.map(function (synonyms, index) {
-          return <li key={index}>{synonyms}</li>;
+          if (index < 5) {
+            return <li key={index}>{synonyms}</li>;
+          } else {
+            return null;
+          }
         })}
       </ul>
     );
