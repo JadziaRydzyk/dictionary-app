@@ -14,3 +14,7 @@
   background-color: #f1f1f1;
   border-color: #f1f1f1;
 }
+.searchHint {
+  margin-bottom: 10px;
+  font-weight: 450;
+}
