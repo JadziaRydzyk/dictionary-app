@@ -1,3 +1,24 @@
 body {
-  background: #f1ecc3;
+  background: #0f3d3e;
+}
+footer {
+  color: #f1f1f1;
+  margin: 30px 0;
+}
+
+header {
+  margin: 30px 0;
+}
+.App-logo {
+  width: 200px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+.GitHubLink {
+  color: #f1f1f1;
+}
+.GitHubLink:hover {
+  color: #f1f1f1;
 }

@@ -1,0 +1,10 @@
+.Phonetic {
+  display: inline;
+}
+.Phonetic a {
+  margin-right: 10px;
+  color: #2c3639;
+}
+.Phonetic a:hover {
+  color: #2c3639;
+}
